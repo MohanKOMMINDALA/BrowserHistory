@@ -1,0 +1,69 @@
+li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-1 {
+  display: flex;
+  align-items: center;
+}
+
+.card-2 {
+  display: flex;
+  align-items: center;
+}
+
+.card-3 {
+  display: flex;
+}
+
+.time {
+  font-size: 16px;
+  font-weight: 500;
+  color: #64748b;
+  margin-right: 5px;
+}
+
+.logo-url {
+  height: 30px;
+  width: 30px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #475569;
+  padding: 5px;
+  margin: 0px;
+}
+
+.span {
+  color: #64748b;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 5px;
+  margin: 0px;
+}
+
+button {
+  border: 0px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: 1px solid #ffffff;
+  padding: 5px;
+  align-self: center;
+}
+
+@media (max-width: 767px) {
+  .card-1 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .card-3 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
